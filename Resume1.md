@@ -1,6 +1,8 @@
 # **Resume**
+
 # **Sistem Persamaan Linear**
-Persamaan Linear  Sebuah ekspresi linear dalam $n$
+
+Persamaan Linear Sebuah ekspresi linear dalam $n$
 perubahan tak diketahui (atau variabel)
 $x_1, x_2, ..., x_n$ adalah ekspresi berbentuk
 
@@ -10,14 +12,14 @@ $$
 
 dengan $a_1, a_2, ..., a_n$ adalah bilangan real tetap.
 
-Sebuah persamaan linear dalam perubahan $x_1, x_2, ..., x_n$ 
+Sebuah persamaan linear dalam perubahan $x_1, x_2, ..., x_n$
 adalah persamaan yang dapat menyeimbangkan hanya menggunakan penjumlahan dan pengurangan menjadi bentuk
 
 $$
 a_1 x_1 + a_2 x_2 + \cdots + a_n x_n = b
 $$
 
-**Sistem Persamaan Linear**  Sebuah sistem persamaan linear (atau sistem linear ) adalah himpunan persamaan linear.
+**Sistem Persamaan Linear** Sebuah sistem persamaan linear (atau sistem linear ) adalah himpunan persamaan linear.
 Suatu sistem linier disebut **homogen** jika seluruh persamaannya homogen.
 
 Saat menampilkan sistem yang terdiri atas $m$ persamaan dalam $n$ perubahan $x_1, x_2, ..., x_n$,
@@ -33,6 +35,7 @@ a_{m1}x_1 + a_{m2}x_2 + \cdots + a_{mn}x_n &= b_m
 $$
 
 Sistem homogen biasanya ditulis sebagai:
+
 $$
 \begin{aligned}
 a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n &= 0 \\
@@ -43,6 +46,7 @@ a_{m1}x_1 + a_{m2}x_2 + \cdots + a_{mn}x_n &= 0
 $$
 
 Himpunan solusi berisi tak hingga banyak elemen; artinya, terdapat tak hingga solusi.Contoh:
+
 $$
 x - y = 0\\
 x - y = 1\\
@@ -63,14 +67,14 @@ A =
 \end{bmatrix}
 $$
 
-dan vektor konstantanya: 
+dan vektor konstantanya:
 
 $$
 b =
 \begin{bmatrix}
 9 \\
 0 \\
--3 
+-3
 \end{bmatrix}
 $$
 
@@ -79,8 +83,8 @@ Matriks augmentasi (augmented matrix) adalah matriks yang dibentuk dengan mengga
 
 Contoh Augmentasi Matriks:
 $ x_1-x_2+2x_3= 1 \\
- x_1+x_2+x_3= 8 \\
- x_1+x_2= 5$
+x_1+x_2+x_3= 8 \\
+x_1+x_2= 5$
 
 Berikut adalah matriks augmentasinya:
 
@@ -101,10 +105,15 @@ M = A.augment(b)
 M
 
 # **Persamaan Linear Dua Variabel**
-Persamaan Linear Dua Variabel (PLDV) adalah persamaan dengan dua variabel (biasanya ($x$) dan ($y$)) yang memiliki pangkat tertinggi satu dan dihubungkan tanda sama dengan (($=$)), berbentuk umum ($ax+by=c$). Sistem Persamaan Linear Dua Variabel (SPLDV) terdiri dari dua persamaan tersebut untuk mencari nilai variabel yang sama. 
+
+Persamaan Linear Dua Variabel (PLDV) adalah persamaan dengan dua variabel (biasanya ($x$) dan ($y$)) yang memiliki pangkat tertinggi satu dan dihubungkan tanda sama dengan (($=$)), berbentuk umum ($ax+by=c$). Sistem Persamaan Linear Dua Variabel (SPLDV) terdiri dari dua persamaan tersebut untuk mencari nilai variabel yang sama.
+
 # **Persamaan Linear Tiga Variabel**
+
 Sistem Persamaan Linear Tiga Variabel (SPLTV) adalah kumpulan tiga persamaan linear yang masing-masing memiliki tiga variabel berpangkat satu (umumnya $ x, y, z$) dan dihubungkan oleh tanda sama dengan ($=$). SPLTV mencari nilai-nilai variabel yang sama untuk semua persamaan, umumnya diselesaikan melalui metode eliminasi, substitusi, gabungan, atau matriks.
+
 # **Aritmatika Matriks**
+
 Matriks adalah susunan bilangan berbentuk persegi atau persegi panjang yang diatur. Matriks adalah array (daftar) bilangan yang terdiri dari baris-baris dan
 kolom-kolom. Aljabar matriks adalah aljabar khusus untuk array tersebut.
 Setiap array diperlakukan sebagai satu entitas yang membuatnya sangat
