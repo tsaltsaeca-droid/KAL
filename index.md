@@ -1,4 +1,4 @@
-
+# **KOMPUTASI ALJABAR LINEAR**
 Persamaan linear adalah sesuatu yang berhubungan dengan garis lurus, tersusun secara berurutan, atau dapat direpresentasikan dalam bentuk garis lurus, terutama dalam matematika di mana variabelnya berpangkat satu dan grafiknya berupa garis lurus.
 
 - Bentuk umum dari persamaan linear dalam satu variabel $x$ adalah:
